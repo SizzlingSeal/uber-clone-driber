@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Driber</title>
+</head>
+<body>
+
+  <!-- NAV BAR-->
+    <div class="topnav" id="myTopnav">
+        <a class = "logo">Driber</a>
+        <div class="dropdown">
+            <button class="dropbtn">Company 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">About Us</a>
+              <a href="#">Our offerings</a>
+              <a href="#">How Driber works</a>
+              <a href="#">Global citizenship</a>
+              <a href="#">Newsroom</a>
+              <a href="#">Investor relations</a>
+              <a href="#">Blog</a>
+              <a href="#">Careers</a>
+            </div>
+          </div> 
+        <a href="#news">Safety</a>
+        <a href="#contact">Help</a>
+
+       <div class="endnav">
+        <a href="#">Products</a>
+        <a href="#">Login</a>
+        <a href="#">Sign-Up</a>
+      </div>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+      <!-- Menu -->
+      <div id= "menu-background">
+         <div id="menu-list">
+
+           <div class="menu-item" onclick="eatmenu()">
+             <img src="./img/restaurant-outlined.svg" alt="">
+             <h4>Eat</h4>
+           </div>
+
+           <div class="menu-item" onclick="ridemenu()">
+            <img src="./img/car-front-outlined.svg" alt="">
+            <h4 id="ride">Ride</h4>
+          </div>
+
+          <div class="menu-item" onclick="earnmenu()">
+            <img src="./img/Earn-filled.svg" alt="">
+            <h4>Earn</h4>
+          </div>
+
+          <div class="menu-item" onclick="freightmenu()">
+            <img src="./img/truck-outlined.svg" alt="">
+            <h4>Freight</h4>
+          </div>
+
+          <div class="menu-item" onclick="businessmenu()">
+            <img src="./img/briefcase-outlined.svg" alt="">
+            <h4>Business</h4>
+          </div>
+
+          <div class="menu-item" onclick="transitmenu()">
+            <img src="./img/train-outlined.svg" alt="">
+            <h4>Transit</h4>
+          </div>
+
+          <div class="menu-item" onclick="bikemenu()">
+            <img src="./img/bike-outlined.svg" alt="">
+            <h4>Bike&Scoot</h4>
+          </div>
+
+         </div>
+
+         <div id="menu-container">
+
+            <div id="menu-eat">
+              <h2>Discover delicious eats</h2>
+              <h4>Order from restaurants you love.</h4>
+              <button>Order Now</button><p>Own a restaurant?</p>
+            </div>
+
+            <div id="menu-ride">
+              <h2>Request a ride now</h2>
+              <input type="text" name="" id="" placeholder="Enter pickup location">
+              <input type="text" name="" id="" placeholder="Enter destination">
+              <div>
+              <button>Request now</button>
+              <button>Schedule for later</button>
+            </div>
+            </div>
+
+            <div id="menu-earn">
+              <h2>Get in the driver's seat and get paid</h2>
+              <h4>Drive on the platform with the largest network of active riders.</h4>
+              <button>Sign up to drive</button>
+              <p>Learn more about driving and delivering</p>
+            </div>
+
+            <div id="menu-freight">
+              <h2>A new direction for freight</h2>
+              <h4>Greater transparency for shippers and carriers to do business together.</h4>
+              <div>
+              <button>Get shipper details</button>
+              <p>Sign up to be a carrier</p>
+            </div>
+            </div>
+
+            <div id="menu-business">
+              <h2>Move your teams and employees</h2>
+              <h4>Driber for Business helps to simplify business travel, expensing, and customer experiences.</h4>
+              <button>Learn More</button>
+            </div>
+
+            <div id="menu-transit">
+              <h2>Empowering public transportation</h2>
+              <h4>Driber’s software and transit solutions help local agencies build the best ways to move their communities forward.</h4>
+              <button>Learn More</button>
+            </div>
+
+            <div id="menu-bike">
+              <h2>Bike or scoot there</h2>
+              <h4>Go farther and have more fun with electric bikes and scooters.</h4>
+              <button>Get a ride</button>
+            </div>
+         </div>
+      </div>
+
+
+      <!--Showcase-->
+      <div id="showcase">
+        <div>
+          <h2>Setting 10,000+ cities in <br>motion</h2><br>
+          <p class="learn-more">View all cities</p>
+        </div>
+      </div>
+
+      <div id="info-intro">
+        <h2>Driber for Business</h2>
+        <p>The power of Driber in everyday business.</p>
+      </div>
+      <!--info-->
+      <div id="info">
+        <div id="three-info">
+          <div>
+              <img src="./img/info-one.png" alt="">
+              <h4>Work Meals</h4>
+              <p>Delight your employees with their favorite meals delivered directly to anywhere they work.</p>
+              <p class="learn-more">Learn more</p>
+          </div>
+          <div>
+            <img src="./img/info-two.png" alt="">
+              <h4>Work Meals</h4>
+              <p>Delight your employees with their favorite meals delivered directly to anywhere they work.</p>
+              <p class="learn-more">Learn more</p>
+          </div>
+          <div>
+            <img src="./img/info-three.png" alt="">
+              <h4>Work Meals</h4>
+              <p>Delight your employees with their favorite meals delivered directly to anywhere they work.</p>
+              <p class="learn-more">Learn more</p>
+          </div>
+        </div>
+      </div>
+    
+      <div id="reserve">
+        <div class ="img-container">
+        <img src="./img/reserve.jpg" alt="">
+        </div>
+
+        <div>
+          <h2>Uber Reserve has arrived</h2>
+          <p>Now more than ever, reservations are a way of life. Reserve a
+             premium Uber experience, up to 30 days in advance, for
+             whenever you’re ready to ride.</p>
+          <p class="learn-more">Learn More</p>
+        </div>
+
+      </div>
+
+      <div id="commitment">
+        <div>
+          <h2>Our commitment to your safety</h2>
+          <p>With every safety feature we add and every standard in our 
+            Community Guidelines we uphold, we're committed to 
+            working to create a safe environment for our users.</p>
+          <p class="learn-more">Learn more about our Community Guidelines</p>
+          <p class="learn-more">See all safety features</p>
+        </div>
+        <div class ="img-container">
+        <img src="./img/Safety_ilo.svg" alt="">
+        </div>
+      </div>
+
+      <div id="trio">
+        <div>
+            <img src="./img/person-multiple-outlined.svg" alt="">
+            <h4>About Us</h4>
+            <p>Find out how we started, what drives us, and how we’re igniting opportunity.</p>
+            <p class="learn-more">Learn More</p>
+        </div>
+
+        <div>
+          <img src="./img/document-outlined.svg" alt="">
+          <h4>Newsroom</h4>
+          <p>See announcements about our latest releases, initiatives, and partnerships.</p>
+          <p class="learn-more">Learn More</p>
+      </div>
+
+      <div>
+        <img src="./img/home-outlined.svg   " alt="">
+        <h4>Global citizenship</h4>
+        <p>Read about our commitment to making a positive impact in the cities we serve.</p>
+        <p class="learn-more">Learn More</p>
+    </div> 
+
+      </div>
+
+      <div id ="signup">
+        
+        <div>
+          <h2>Sign up to drive</h2>
+          <img src="./img/arrow-pointing-to-right.svg" alt="">
+        </div>
+
+        <div>
+          <h2>Sign up to ride</h2>
+          <img src="./img/arrow-pointing-to-right.svg" alt="">
+        </div>
+
+      </div>
+
+      <div id="footer-background">
+      <footer>
+        <div id="help-center">
+          <h3>Driber</h3>
+          <p>Visit Help Center</p>
+        </div>
+
+        <div id="company">
+          <h3>Company</h3>
+          <ul>
+            <li><a>About us</a></li>
+            <li><a>Our offerings</a></li>
+            <li><a>Newsroom</a></li>
+            <li><a>Investors</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Careers</a></li>
+            <li><a>AI</a></li>
+          </ul>
+        </div>
+
+        <div id="products">
+          <h3>Products</h3>
+          <ul>
+            <li><a>Ride</a></li>
+            <li><a>Drive</a></li>
+            <li><a>Eat</a></li>
+            <li><a>Driber for Business</a></li>
+            <li><a>Driber Freight</a></li>
+          </ul>
+        </div>
+
+        <div id="global-citizenship">
+          <h3>Global Citizenship</h3>
+          <ul>
+            <li><a>Safety</a></li>
+            <li><a>Diversity and Inclusion</a></li>
+          </ul>
+        </div>
+
+        <div id="social-links">
+       <img src="./img/facebook.svg" alt="facebook-logo" class="filter-white">
+       <img src="./img/twitter.svg" alt="twitter-logo" class="filter-white">
+       <img src="./img/youtube.svg" alt="youtube-logo" class="filter-white">
+       <img src="./img/linkedin.svg" alt="linkedin-logo" class="filter-white">
+       <img src="./img/instagram.svg" alt="instagram-logo" class="filter-white">
+        </div>
+
+        <div id="location">
+          <div>
+            <img src="./img/globe.svg" alt="globe" class="filter-white">
+            <p>English(International)</p>
+          </div>
+
+          <div>
+            <img src="./img/pin.svg" alt="pin" class="filter-white">
+            <p>Makati City Philippines</p>
+          </div>
+        </div>
+
+        <div id="apps">
+            <img src="./img/app-store-google-4d63c31a3e.svg" alt="google">
+            <img src="./img/app-store-apple-f1f919205b.svg" alt="apple">
+            <div>
+              <p>Privacy</p>
+              <p>Accessibility</p>
+              <p>Terms</p>
+            </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./javascript/javascript.js"></script>
+</body>
+</html>
